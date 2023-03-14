@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Atri</title>
+  <link rel="stylesheet" href="/static/css/index.css">
+  <!-- Pollyfill script -->
+  <script src="/static/js/core-js.js"></script>
+  <!-- Live2DCubismCore script -->
+  <script src="/static/js/live2dcubismcore.js"></script>
+  <!-- Build script -->
+  <script src="/static/js/bundle.js"></script>
+</head>
+
+<body>
+  <audio id="audio-player" crossOrigin="anonymous"></audio>
+  <div id="header">
+    <button id="reload-button" class="top-button"><img class="button-img" src="/static/images/reload.png" alt="重置"></button>
+    <button id="captions-button" class="top-button"><img class="button-img" src="/static/images/text.png" alt="字幕"></button>
+    <button id="language-button" class="top-button"><img class="button-img" src="/static/images/zh.png" alt="语言"></button>
+    <button id="record-button" class="top-button" style="visibility: hidden;"><img class="button-img" src="/static/images/record.png" alt="录音"></button>
+  </div>
+  <div id="live2d-canvas"></div>
+  <div id="textarea-div">
+    <textarea id="captions-textarea" style="visibility: hidden;" readonly></textarea>
+    <input id="message-input"></input>
+  </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+librosa
+matplotlib
+numpy
+phonemizer
+scipy
+torch
+torchvision
+Unidecode
+pyopenjtalk
+flask
+waitress

@@ -1,0 +1,9 @@
+SECRET_KEY = ""
+OPENAI_API_KEY = ""
+BAIDU_TRANSLATE_URL = "https://fanyi-api.baidu.com/api/trans/vip/translate"
+BAIDU_TRANSLATE_APPID = ""
+BAIDU_TRANSLATE_KEY = ""
+REPLACEMENTS = {}
+TRANSCRIPT_PROMPT = {"zh": "", "ja": ""}
+ENHANCE_PROMPT = ""
+INITIAL_CONTEXT = []
