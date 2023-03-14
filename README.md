@@ -1,4 +1,4 @@
-# ChatGPT-Whisper-VITS-Live2D
+# ChatVITS
 
 这是一个基于 ChatGPT、Whisper、VITS 和 Live2D 的语音聊天网页。
 
